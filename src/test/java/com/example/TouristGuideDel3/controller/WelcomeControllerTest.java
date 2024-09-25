@@ -1,4 +1,4 @@
-package com.example.testci.controller;
+package com.example.TouristGuideDel3.controller;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -12,7 +12,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.view;
 
-@WebMvcTest(WelcomeController.class)
+@WebMvcTest(TouristController.class)
 class WelcomeControllerTest {
 
     @Autowired
