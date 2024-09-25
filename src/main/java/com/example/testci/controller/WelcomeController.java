@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class WelcomeController {
 
     @GetMapping("/welcome")
-    public void getWelcome() {
-        System.out.println("WelcomeController");
+    public String welcome() {
+        return "welcome";
     }
 
 }
